@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A435D7C173D5D220085FF88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A435D7B173D5D220085FF88 /* Default-568h@2x.png */; };
+		3ACA0AA9173D5B590083D577 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACA0AA8173D5B590083D577 /* UIKit.framework */; };
+		3ACA0AAB173D5B590083D577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACA0AAA173D5B590083D577 /* Foundation.framework */; };
+		3ACA0AAD173D5B590083D577 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACA0AAC173D5B590083D577 /* CoreGraphics.framework */; };
+		3ACA0AAF173D5B590083D577 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACA0AAE173D5B590083D577 /* QuartzCore.framework */; };
+		3ACA0AB1173D5B590083D577 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACA0AB0173D5B590083D577 /* CoreData.framework */; };
+		3ACA0AB7173D5B590083D577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA0AB6173D5B590083D577 /* main.m */; };
+		3ACA0ABB173D5B590083D577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA0ABA173D5B590083D577 /* AppDelegate.m */; };
+		3ACA0ABE173D5B590083D577 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA0ABD173D5B590083D577 /* RootViewController.m */; };
+		3ACA0AC0173D5B590083D577 /* domo.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA0ABF173D5B590083D577 /* domo.xcdatamodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E59E861EF6546699EDA8942 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A435D7B173D5D220085FF88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3ACA0AA5173D5B590083D577 /* domo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = domo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACA0AA8173D5B590083D577 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3ACA0AAA173D5B590083D577 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3ACA0AAC173D5B590083D577 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3ACA0AAE173D5B590083D577 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3ACA0AB0173D5B590083D577 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3ACA0AB4173D5B590083D577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACA0AB5173D5B590083D577 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		3ACA0AB6173D5B590083D577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ACA0AB9173D5B590083D577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		3ACA0ABA173D5B590083D577 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		3ACA0ABC173D5B590083D577 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/RootViewController.h; sourceTree = "<group>"; };
+		3ACA0ABD173D5B590083D577 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/RootViewController.m; sourceTree = "<group>"; };
+		3ACA0ABF173D5B590083D577 /* domo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = domo.xcdatamodel; sourceTree = "<group>"; };
+		53E938624DED408DB257CEAC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ACA0AA2173D5B590083D577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA0AA9173D5B590083D577 /* UIKit.framework in Frameworks */,
+				3ACA0AAB173D5B590083D577 /* Foundation.framework in Frameworks */,
+				3ACA0AAD173D5B590083D577 /* CoreGraphics.framework in Frameworks */,
+				3ACA0AAF173D5B590083D577 /* QuartzCore.framework in Frameworks */,
+				3ACA0AB1173D5B590083D577 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ACA0A9C173D5B590083D577 = {
+			isa = PBXGroup;
+			children = (
+				3A435D7B173D5D220085FF88 /* Default-568h@2x.png */,
+				3ACA0AB2173D5B590083D577 /* domo */,
+				3ACA0AA7173D5B590083D577 /* Frameworks */,
+				3ACA0AA6173D5B590083D577 /* Products */,
+				53E938624DED408DB257CEAC /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		3ACA0AA6173D5B590083D577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA0AA5173D5B590083D577 /* domo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ACA0AA7173D5B590083D577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA0AA8173D5B590083D577 /* UIKit.framework */,
+				3ACA0AAA173D5B590083D577 /* Foundation.framework */,
+				3ACA0AAC173D5B590083D577 /* CoreGraphics.framework */,
+				3ACA0AAE173D5B590083D577 /* QuartzCore.framework */,
+				3ACA0AB0173D5B590083D577 /* CoreData.framework */,
+				0E59E861EF6546699EDA8942 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ACA0AB2173D5B590083D577 /* domo */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA0AB8173D5B590083D577 /* Classes */,
+				3ACA0AB3173D5B590083D577 /* Supporting Files */,
+			);
+			path = domo;
+			sourceTree = "<group>";
+		};
+		3ACA0AB3173D5B590083D577 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA0AB4173D5B590083D577 /* Info.plist */,
+				3ACA0AB5173D5B590083D577 /* Prefix.pch */,
+				3ACA0AB6173D5B590083D577 /* main.m */,
+				3ACA0ABF173D5B590083D577 /* domo.xcdatamodel */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ACA0AB8173D5B590083D577 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA0AB9173D5B590083D577 /* AppDelegate.h */,
+				3ACA0ABA173D5B590083D577 /* AppDelegate.m */,
+				3ACA0ABC173D5B590083D577 /* RootViewController.h */,
+				3ACA0ABD173D5B590083D577 /* RootViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ACA0AA4173D5B590083D577 /* domo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACA0AC3173D5B590083D577 /* Build configuration list for PBXNativeTarget "domo" */;
+			buildPhases = (
+				5CBB2E86ABD748D092238E1D /* Check Pods Manifest.lock */,
+				3ACA0AA1173D5B590083D577 /* Sources */,
+				3ACA0AA2173D5B590083D577 /* Frameworks */,
+				3ACA0AA3173D5B590083D577 /* Resources */,
+				F108453C1A4F4416B3237760 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = domo;
+			productName = domo;
+			productReference = 3ACA0AA5173D5B590083D577 /* domo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ACA0A9D173D5B590083D577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 3ACA0AA0173D5B590083D577 /* Build configuration list for PBXProject "domo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3ACA0A9C173D5B590083D577;
+			productRefGroup = 3ACA0AA6173D5B590083D577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ACA0AA4173D5B590083D577 /* domo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ACA0AA3173D5B590083D577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A435D7C173D5D220085FF88 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CBB2E86ABD748D092238E1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		F108453C1A4F4416B3237760 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ACA0AA1173D5B590083D577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA0AB7173D5B590083D577 /* main.m in Sources */,
+				3ACA0ABB173D5B590083D577 /* AppDelegate.m in Sources */,
+				3ACA0ABE173D5B590083D577 /* RootViewController.m in Sources */,
+				3ACA0AC0173D5B590083D577 /* domo.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3ACA0AC1173D5B590083D577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3ACA0AC2173D5B590083D577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3ACA0AC4173D5B590083D577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E938624DED408DB257CEAC /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = domo/Prefix.pch;
+				INFOPLIST_FILE = domo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3ACA0AC5173D5B590083D577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E938624DED408DB257CEAC /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = domo/Prefix.pch;
+				INFOPLIST_FILE = domo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/usr/local/include";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ACA0AA0173D5B590083D577 /* Build configuration list for PBXProject "domo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA0AC1173D5B590083D577 /* Debug */,
+				3ACA0AC2173D5B590083D577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACA0AC3173D5B590083D577 /* Build configuration list for PBXNativeTarget "domo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA0AC4173D5B590083D577 /* Debug */,
+				3ACA0AC5173D5B590083D577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ACA0A9D173D5B590083D577 /* Project object */;
+}
